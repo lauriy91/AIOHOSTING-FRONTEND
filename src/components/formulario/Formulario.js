@@ -8,8 +8,8 @@ import Card from 'react-bootstrap/Card'
 
 
 const hStyle = { color: 'purple' };
-const btnStyle1 = { color: 'blue',fontWeight: 'bold' };
-const btnStyle2 = { color: 'red',fontWeight: 'bold' };
+const btnStyle1 = { color: 'blue', fontWeight: 'bold' };
+const btnStyle2 = { color: 'red', fontWeight: 'bold' };
 const txtBoxStyle = { borderRadius: '40px' };
 
 const Formulario = () => {
@@ -19,6 +19,8 @@ const Formulario = () => {
                 <h1 style={hStyle} align="center" >Formularios</h1>
                 <br />
                 <h2 style={hStyle} align="left" >Login</h2>
+                <br />
+                <h5 style={hStyle} align="left" >Editar Alojamiento</h5>
                 <Row className="align-items-center">
                     <Col sm={3} className="my-1">
                         <Form.Label htmlFor="inlineFormInputName">
@@ -79,48 +81,46 @@ const Formulario = () => {
                         </Form.Label>
                     </Col>
                 </Row>
-                <br>
-                </br>
                 <h2 style={hStyle} align="center" >Reservar</h2>
                 <div align="right">
-                <Card align="right" style={{ width: '20rem' }}>
-                    <Card.Body>
-                <h5 align="center" style={hStyle}><Form.Label>Ingresa tus Datos</Form.Label></h5>
-                <Form.Group className="mb-3" controlId="formBasicName">
+                    <Card align="right" style={{ width: '20rem' }}>
+                        <Card.Body>
+                            <h5 align="center" style={hStyle}><Form.Label>Ingresa tus Datos</Form.Label></h5>
+                            <Form.Group className="mb-3" controlId="formBasicName">
 
-                    <Form.Control style={txtBoxStyle} type="name" placeholder="Nombre" />
+                                <Form.Control style={txtBoxStyle} type="name" placeholder="Nombre" />
 
-                </Form.Group>
+                            </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Group className="mb-3" controlId="formBasicEmail">
 
-                    <Form.Control style={txtBoxStyle} type="email" placeholder="Email" />
+                                <Form.Control style={txtBoxStyle} type="email" placeholder="Email" />
 
-                </Form.Group>
+                            </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPhone">
+                            <Form.Group className="mb-3" controlId="formBasicPhone">
 
-                    <Form.Control style={txtBoxStyle} type="telephone" placeholder="Teléfono" />
+                                <Form.Control style={txtBoxStyle} type="telephone" placeholder="Teléfono" />
 
-                </Form.Group>
+                            </Form.Group>
 
-                <Button style={txtBoxStyle} variant="primary" type="submit">
-                    Comprar
+                            <Button style={txtBoxStyle} variant="primary" type="submit">
+                                Comprar
 
-                </Button>
+                            </Button>
 
-                <div>
-                    <Form.Text className="text-muted">
-                        Política de tratamiento de datos
-                    </Form.Text>
-                    <Form.Check
-                        type="checkbox"
-                        id="autoSizingCheck"
-                        className="mb-2"
-                    />
-                </div>
-                </Card.Body>
-                </Card>
+                            <div>
+                                <Form.Text className="text-muted">
+                                    Política de tratamiento de datos
+                                </Form.Text>
+                                <Form.Check
+                                    type="checkbox"
+                                    id="autoSizingCheck"
+                                    className="mb-2"
+                                />
+                            </div>
+                        </Card.Body>
+                    </Card>
                 </div>
             </Form>
         </>
