@@ -104,7 +104,7 @@ const Formulario = () => {
 
                             </Form.Group>
 
-                            <Button style={txtBoxStyle} variant="primary" type="submit">
+                            <Button style={txtBoxStyle} variant="outline-primary" type="submit" size="lg">
                                 Comprar
 
                             </Button>
