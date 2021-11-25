@@ -5,6 +5,7 @@ import imagen1 from './images/1.jpg';
 import imagen2 from './images/2.jpg';
 import imagen3 from './images/3.jpg';
 
+//comentario
 const carousel = () => {
   return (
     <div class="container">
