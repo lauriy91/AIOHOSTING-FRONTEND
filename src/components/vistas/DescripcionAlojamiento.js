@@ -1,7 +1,9 @@
+import { BannerSinFiltro } from "../banner/BannerSinFiltro"
+
 export const DescripcionAlojamiento = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <BannerSinFiltro/>
+        </>
     )
 }

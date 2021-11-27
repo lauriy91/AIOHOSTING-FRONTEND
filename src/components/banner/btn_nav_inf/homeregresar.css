@@ -25,6 +25,6 @@ button{
 }
 
 .btnInferior{
-    grid-column: 11;
+    grid-column: 10;
     margin-right: 2rem;
 }
