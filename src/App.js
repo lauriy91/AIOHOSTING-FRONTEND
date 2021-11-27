@@ -1,16 +1,17 @@
+import { useContext } from 'react';
 import './App.css';
-import { Banner } from './components/banner/Banner';
-import {VerticalCard} from './components/vertical_card/VerticalCard'
-import {HorizontalCard} from './components/horizontal_card/HorizontalCard'
-import {Filtro} from './components/filtro/Filtro'
-import {Puntaje} from './components/puntaje/Puntaje'
+import AuthContext from './context/AuthContext';
+import AuthRouter from './routers/AuthRouter';
+import UnAuthRouter from './routers/UnAuthRouter';
 
 function App() {
+  const {auth} = useContext(AuthContext);
   return (
-    <div>
-      <Banner/>
+    <div className="App">
+      {auth ? <AuthRouter/> : <UnAuthRouter/>}      
     </div>
   );
 }
 
 export default App;
+
