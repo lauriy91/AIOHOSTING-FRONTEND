@@ -8,7 +8,7 @@ import Paginacion from '../paginacion/Paginacion'
 
 export const ResultadosBusqueda = () => {
     return (
-        <div>
+        <>
             <Banner/>
             
             <div>
@@ -17,6 +17,6 @@ export const ResultadosBusqueda = () => {
                 <HorizontalCard/>
             </div>
             <Paginacion/>
-        </div>
+        </>
     )
 }
