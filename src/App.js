@@ -3,7 +3,7 @@ import './App.css';
 import AuthContext from './context/AuthContext';
 import AuthRouter from './routers/AuthRouter';
 import UnAuthRouter from './routers/UnAuthRouter';
-import { Home } from './components/vistas/Home';
+import {ResultadosBusqueda} from './components/vistas/ResultadosBusqueda'
 
 function App() {
   
@@ -18,7 +18,7 @@ function App() {
   return (
 
     <>
-    <Home/>
+    <ResultadosBusqueda/>
     </>    
 
   );

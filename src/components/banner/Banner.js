@@ -15,7 +15,9 @@ export const Banner = () => {
 
         {/* Banner inferior */}
         <nav className="navinf">
+            <div className="contBtnInf">
             <HomeRegresar/>
+            </div>            
         </nav>
         </>
     )
