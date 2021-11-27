@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router';
 import Auth from '../pages/public/Auth';
-import LoginUser from '../components/loginUser';
+import LoginUser from '../components/loginUser/LoginUser';
 
 const UnAuthRouter = () => {
     return (

@@ -15,7 +15,6 @@ const LoginUser = () => {
   //Navegador
   const navigate = useNavigate();
 
-
   const handleForm = (e)=>{
     setForm( {...form, [e.target.name]: e.target.value} );
   }
@@ -73,4 +72,4 @@ const LoginUser = () => {
     )
 }
 
-export default LoginUser
+export default LoginUser;

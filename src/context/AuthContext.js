@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import { apiLogin, apiRegister } from "./Api";
+import {apiLoginUser} from "./Api";
 
 //Crear contexto
 const AuthContext = createContext();
@@ -44,7 +44,7 @@ const AuthProvider = ({children})=>{
     }
 
     const handleLogin = async (objUser)=>{
-        let resp = await fetch(apiLogin, {
+        let resp = await fetch(apiLoginUser, {
             method: 'POST',
             headers:{
                 'Content-Type': 'application/json'

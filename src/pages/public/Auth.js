@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginUser from '../../components/loginUser';
+import { LoginUser } from '../loginUser/LoginUser';
 
 const Auth = () => {
     return (
