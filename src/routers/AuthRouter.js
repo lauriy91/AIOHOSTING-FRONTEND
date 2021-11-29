@@ -1,14 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router';
-import LoginUser from '../components/loginUser/LoginUser';
+import {PanelAdmin} from '../components/vistas/PanelAdmin'
 
 const AuthRouter = () => {
     return (
        <Routes>
-           <Route path="/" element={<LoginUser/>}>
+           <Route path="/" element={<PanelAdmin/>}>
            </Route>
        </Routes>
     )
 }
+
 
 export default AuthRouter;
