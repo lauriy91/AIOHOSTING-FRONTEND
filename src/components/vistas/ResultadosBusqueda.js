@@ -1,7 +1,6 @@
-import { Pagination } from 'react-bootstrap'
-import {Banner} from '../banner/Banner'
-import {HorizontalCard} from '../horizontal_card/HorizontalCard'
-import Paginacion from '../paginacion/Paginacion'
+import {Banner2} from '../banner2/Banner2'
+// import {HorizontalCard} from '../horizontal_card/HorizontalCard'
+// import Paginacion from '../paginacion/Paginacion'
 
 
 
@@ -9,14 +8,14 @@ import Paginacion from '../paginacion/Paginacion'
 export const ResultadosBusqueda = () => {
     return (
         <>
-            <Banner/>
+            <Banner2/>
             
-            <div>
+            {/* <div>
                 <HorizontalCard/>
                 <HorizontalCard/>
                 <HorizontalCard/>
             </div>
-            <Paginacion/>
+            <Paginacion/> */}
         </>
     )
 }

@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     font-family: 'Roboto', sans-serif;
     background: linear-gradient( rgb(221, 6, 132), rgb(126, 13, 136), rgb(112, 2, 155));
     background-position: 0 0, 10px 10 px;
     /* display: flex; */
-    min-height: 100vh;
-}
+    /* min-height: 100vh;
+} */ 
 
 .form{
     background-color: white;

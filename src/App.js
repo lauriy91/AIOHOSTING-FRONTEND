@@ -3,8 +3,7 @@ import './App.css';
 import AuthContext from './context/AuthContext';
 import AuthRouter from './routers/AuthRouter';
 import UnAuthRouter from './routers/UnAuthRouter';
-import {DescripcionAlojamiento} from './components/vistas/DescripcionAlojamiento'
-import LoginUser from './components/loginUser/LoginUser';
+import { Home } from './components/vistas/Home';
 
 function App() {
   
@@ -19,7 +18,7 @@ function App() {
   return (
 
     <>
-    <LoginUser/>
+    <Home/>
     {/* <DescripcionAlojamiento/> */}
     </>    
 
