@@ -6,25 +6,33 @@ import { LabelIdioma } from '../labelIdioma/LabelIdioma';
 export const Banner2 = () => {
     return (
         <>
-        <div id="imagenBanner">
-            <img height="500px" width="100%" src="https://i.postimg.cc/g2X0FsBH/H001.jpg"></img>
-        </div>
-        {/* Banner superior */}
-        <img className="logo" src={AIOHostingLogo} alt="Logo" />
+            {/* Imagen banner de fondo */}
+            <div id="imagenBanner">
+                <img height="500px" width="100%" src="https://i.postimg.cc/g2X0FsBH/H001.jpg"></img>
+            </div>
 
-        <div className="labelIdioma"><LabelIdioma/></div>
+            {/* Logo */}
+            <img 
+                className="logo" src={AIOHostingLogo} alt="Logo">
+            </img>
 
-        <div className="about">
-            <h4 className="titleAbout">ABOUT US</h4>
-            <p>lorem mansmm sfdfdfmkl dsdsfdfdfd fdffdf sfdfdfdffdf</p>
-            <p>fdfsfsdasds sfdfdgfgfgffsd dsdsdsdsdsfdfdf </p>
-            <p>fsfsdsdserrrgddsfsdsfsf fdfsfsfsfs</p>
-        </div>
+            {/* links idioma, busqueda y moneda */}
+            <div className="labelIdioma">
+                <LabelIdioma/>
+            </div>
 
-        {/* Banner inferior */}
-        <nav className="coco">
-            <Coco/>          
-        </nav>
+            {/* Texto about */}
+            <div className="about">
+                <h4 className="titleAbout">ABOUT US</h4>
+                <h5>lorem mansmm sfdfdfmkl dsdsfdfdfd fdffdf sfdfdfdffdf</h5>
+                <p>fdfsfsdasds sfdfdgfgfgffsd dsdsdsdsdsfdfdf </p>
+                <p>fsfsdsdserrrgddsfsdsfsf fdfsfsfsfs</p>
+            </div>
+
+            {/* Links a los filtros de Coliving y Coworking */}
+            <div className="coco">
+                <Coco/>          
+            </div>
         </>
     )
 }

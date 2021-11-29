@@ -2,7 +2,7 @@ import labelIdioma from "./labelIdioma.css"
 
 export const LabelIdioma = () => {
     return (
-        <div class="banner">
+      <div class="language">
         <div class="col s8">
     
           <router-link to="/FiltroEspañol">
@@ -17,9 +17,9 @@ export const LabelIdioma = () => {
 
           <span id="separador">|</span>
     
-            <router-link to="/FiltroLogin">
-            <span id="textoIdioma">Login</span>
-            </router-link>
+          <router-link to="/FiltroLogin">
+          <span id="textoIdioma">Login</span>
+          </router-link>
     
         </div>
       </div>
