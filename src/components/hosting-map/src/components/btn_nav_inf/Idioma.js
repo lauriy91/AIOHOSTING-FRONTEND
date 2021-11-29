@@ -1,12 +1,16 @@
 
+
+const hStyle = { fontSize: '1.5em', color: '#fff' };
+const mStyle = { fontSize: '2em', color: '#fff' };
+
 export const Idioma = () => {
     return (
         <div>
-            <button className="idioma">Epañol</button>
-            <span id="separador">|</span>
-            <button className="idioma">Moneda</button>
-            <span id="separador">|</span>
-            <button className="idioma">Login</button>
+            <button className="idioma" style= {hStyle}>Epañol</button>
+            <span id="separador" style= {mStyle}>|</span>
+            <button className="idioma" style= {hStyle}>Moneda</button>
+            <span id="separador" style= {mStyle}>|</span>
+            <button className="idioma" style= {hStyle}>Login</button>
         </div>
     )
 }
