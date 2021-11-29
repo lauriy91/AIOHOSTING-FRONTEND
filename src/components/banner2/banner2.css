@@ -1,9 +1,3 @@
-/* img{
-    max-width: 100%;
-    height: 400px;
-    position: absolute;
-} */
-
 #imagenBanner{
     filter: brightness(40%);
 }
