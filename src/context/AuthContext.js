@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import {apiLoginUser} from "./Api";
+import { apiRegister } from "./Api";
 
 //Crear contexto
 const AuthContext = createContext();

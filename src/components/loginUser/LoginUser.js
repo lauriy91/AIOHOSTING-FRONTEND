@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router";
 import AuthContext from "../../context/AuthContext";
+import loginUser from "../loginUser/loginUser.css";
 
 const objForm = {
   email: "",
@@ -65,8 +66,7 @@ const LoginUser = () => {
                         <label class="forgot_password"> <a href="#" class="form_link">Olvidé Contraseña</a></label>
                     </div>
                 </form>
-
-    </body>
+      </body>
             </header>
         </>
     )
