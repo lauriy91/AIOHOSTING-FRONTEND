@@ -1,15 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router';
-// import LoginUser from '../components/loginUser/LoginUser';
-import { Home } from '../components/vistas/Home';
+import {PanelAdmin} from '../components/vistas/PanelAdmin'
 
 const AuthRouter = () => {
     return (
-       <Routes >
-           {/* <Route path="/" element={<LoginUser/>}/>, */}
-           <Route path="/" element={<Home/>}/>
+       <Routes>
+           <Route path="/" element={<PanelAdmin/>}>
+           </Route>
        </Routes>
     )
 }
+
 
 export default AuthRouter;

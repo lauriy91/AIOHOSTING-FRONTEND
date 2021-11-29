@@ -39,7 +39,7 @@ const LoginUser = () => {
     return (
         <>
             <header className="App-header">
-            <body>
+            <body className="bodyLogin">
 
                 <form class="form">
                     <h2 class="form_title">Inicia Sesión</h2>

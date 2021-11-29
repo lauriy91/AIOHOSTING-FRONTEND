@@ -5,9 +5,13 @@ import { Banner2 } from "../banner2/Banner2"
 export const Home = () => {
     return (
         <div>
+<<<<<<< HEAD
             <Banner2/>,
             {/* <VerticalCard/>,
             <Paginacion/> */}
+=======
+            <h1>Home</h1>
+>>>>>>> bcf5063772dd2fb5705fe5acd0f01cfea1a70092
         </div>
     )
 }

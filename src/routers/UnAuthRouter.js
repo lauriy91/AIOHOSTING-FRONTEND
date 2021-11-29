@@ -1,19 +1,21 @@
 import React from 'react'
 import { Route, Routes } from 'react-router';
-import Auth from '../pages/public/Auth';
 import LoginUser from '../components/loginUser/LoginUser';
+import {Home} from '../components/vistas/Home'
+import {DescripcionAlojamiento} from '../components/vistas/DescripcionAlojamiento'
 import {ResultadosBusqueda} from '../components/vistas/ResultadosBusqueda'
-import { Home } from '../components/vistas/Home';
 
-const UnAuthRouter = () => {
+
+const Unauthrouter = () => {
     return (
         <Routes>
-            <Route path="/" element={<LoginUser/>}/>
-            <Route path="/auth" element={<Auth/>}/>
-            <Route path="/home" element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/login" element={<LoginUser/>}/>
+            <Route path="/descripcion" element={<DescripcionAlojamiento/>}/>
             <Route path="/resultado" element={<ResultadosBusqueda/>}/>
         </Routes>
     )
 }
 
-export default UnAuthRouter;
+
+export default Unauthrouter;
