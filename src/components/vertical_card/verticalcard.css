@@ -30,6 +30,11 @@ div label {
     font-weight: bold 0.1rem;    
 }
 
+.ciudad{
+    margin-left: .5em;
+    text-align: left;
+}
+
 .lblPuntaje{
     display: grid;
     grid-template-columns: 8rem  8rem;
@@ -49,7 +54,7 @@ h3{
     width: 100%;
     margin: 0px;
     text-align: left;
-    color:#00cccc;
+    color:rgb(9, 128, 118);
     font-family: arial;
     font-size: 2rem;
     

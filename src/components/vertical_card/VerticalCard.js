@@ -9,7 +9,7 @@ export const VerticalCard = () => {
             <div className="bodyCard">
                 <h3>Hostal Bogotá</h3>
                 <label className="lblPuntaje"> Puntuacion: 10 <Puntaje/> </label>
-                <label>Ciudad: Bogotá</label>
+                <label className="ciudad">Ciudad: Bogotá</label>
                 <button className="btnVerDetalles">Ver detalles</button>
             </div>
         </div>

@@ -7,15 +7,14 @@ Nav{
 
 .navsup{
     display: grid;
-    grid-template-columns: 20rem 30rem 15rem;
+    grid-template-columns: 18rem 30rem 15rem;
     grid-template-rows: 1fr;
 }
 
 .navinf{
     display: grid;
-    grid-template-columns: 15rem 30rem 15rem;
+    grid-template-columns: 7rem 30rem 15rem;
     grid-template-rows: 1fr;
-    
 }
 
 .logo{
@@ -23,6 +22,12 @@ Nav{
     width: 10rem;
     height: 12rem;
 }
+
+/* .labelIdioma{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 75% ;
+} */
 
 .contBtnInf{
     grid-column: 4/4;
