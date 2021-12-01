@@ -1,11 +1,12 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router";
 import AuthContext from "../../context/AuthContext";
+import {Form, Button} from "react-bootstrap";
 import loginUser from "../loginUser/loginUser.css";
 
 const objForm = {
-  email: "",
-  password: ""
+  correo: "",
+  contrasena: ""
 }
 
 const LoginUser = () => {
@@ -24,6 +25,7 @@ const LoginUser = () => {
     e.preventDefault();
     handleLogin(form).then(async (resp)=>{
       if(resp.status === 200){
+        console.log('Ingreso...');
         let json = await resp.json();
         let token = json.token;
         localStorage.setItem('token', token);
@@ -37,39 +39,25 @@ const LoginUser = () => {
   }
 
     return (
-        <>
-            <header className="App-header">
-            <body className="bodyLogin">
+      <div className="login">
+      <h2>Login</h2>
+      <Form onSubmit={handleSubmit}>
+        <Form.Group className="mb-3" controlId="loginEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control required value={form.correo} onChange={handleForm} name="correo" type="email" placeholder="Enter email" />
+        </Form.Group>
 
-                <form class="form">
-                    <h2 class="form_title">Inicia Sesión</h2>
-                    <p class="form_parragraph">¿Aún no tienes cuenta? <a href="#" class="form_link">Entra aquí</a></p>
+        <Form.Group className="mb-3" controlId="loginPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control required value={form.contrasena} onChange={handleForm} name="contrasena" type="password" placeholder="Password" />
+        </Form.Group>
 
-                    <div class="form_container">
-                        <div class="form_group">
-                            <input type="text" id="name" class="form_input" placeholder=" "></input>
-                            <label for="name" class="form_label"> Nombre: </label>
-                            <span class="form_line"></span>
-                        </div>
-                        <div class="form_group">
-                            <input type="text" id="user" class="form_input" placeholder=" "></input>
-                            <label for="user" class="form_label"> Usuario: </label>
-                            <span class="form_line"></span>
-                        </div>
-                        <div class="form_group">
-                            <input type="password" id="password" class="form_input" placeholder=" "></input>
-                            <label for="password" class="form_label"> Contraseña: </label>
-                            <span class="form_line"></span>
-                        </div>
-
-                        <input type="submit" class="form_submit" value="Entrar"></input>
-                        <label class="forgot_password"> <a href="#" class="form_link">Olvidé Contraseña</a></label>
-                    </div>
-                </form>
-      </body>
-            </header>
-        </>
-    )
-}
+        <Button variant="primary" type="submit">
+          Enter
+        </Button>
+      </Form>
+    </div>
+    );
+};
 
 export default LoginUser;
