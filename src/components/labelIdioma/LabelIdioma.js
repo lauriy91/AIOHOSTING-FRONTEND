@@ -1,4 +1,5 @@
 import labelIdioma from "./labelIdioma.css"
+import {Link } from "react-router-dom";
 
 export const LabelIdioma = () => {
     return (
@@ -17,9 +18,9 @@ export const LabelIdioma = () => {
 
           <span id="separador">|</span>
     
-          <router-link to="/FiltroLogin">
+          <Link to="/login">
           <span id="textoIdioma">Login</span>
-          </router-link>
+          </Link>
     
         </div>
       </div>
