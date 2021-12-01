@@ -15,8 +15,8 @@ const carousel = () => {
 
             src={imagen1}
 
-            width="2000px"
-            height="250px"
+            width="100%"
+            height="600px"
           />
           <Carousel.Caption>
             <h3>First slide label</h3>
@@ -24,10 +24,11 @@ const carousel = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
+
           <img
             src={imagen2}
-            width="2000px"
-            height="250px"
+            width="100%"
+            height="600px"
           />
 
           <Carousel.Caption>
@@ -39,8 +40,8 @@ const carousel = () => {
           <img
             src={imagen3}
             alt="Third slide"
-            width="2000px"
-            height="250px"
+            width="100%"
+            height="600px"
           />
 
           <Carousel.Caption>

@@ -1,19 +1,20 @@
 import coco from "./coco.css"
+import {Link } from "react-router-dom";
 
 export const Coco = () => {
     return (
         <div class="banner">
         <div class="col s8">
     
-          <router-link to="/Filtrocoworking">
+        <Link to="/resultado">
             <span id="textoCoco"> Coworking </span>
-          </router-link>
+          </Link>
     
           <span id="separador2">|</span>
     
-          <router-link to="/Filtrocoliving">
+          <Link to="/resultado">
             <span id="textoCoco">Coliving</span>
-          </router-link>
+          </Link>
     
         </div>
       </div>

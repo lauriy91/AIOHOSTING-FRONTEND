@@ -6,7 +6,7 @@ import iconosdescripcion from "./iconosdescripcion.css";
 
 function IconosDescripcion() {
   return (
-    <table className="App">
+    <table className="Iconos">
       <tr>
         <td>
           <BsBicycle />

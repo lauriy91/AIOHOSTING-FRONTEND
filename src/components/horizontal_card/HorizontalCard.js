@@ -1,8 +1,12 @@
 import horizontalcard from './horizontalcard.css'
 import { Puntaje } from '../puntaje/Puntaje'
 import exampleimg from './exampleimg.jpg'
+import {Link } from "react-router-dom";
 
 export const HorizontalCard = () => {
+
+
+    
     return (
         <div className="conthCard">
             <img className="imghCard" src={exampleimg} alt="ImagenAlojamiento"/>
@@ -15,7 +19,7 @@ export const HorizontalCard = () => {
             <div className="conthPrecio">
             <span>Precio x dias:</span>
             <span className="spnPrecio">$1000000 COP</span> 
-            <button className="btnhVerDetalles">Ver detalles</button>
+            <Link to="/descripcion"><button className="btnhVerDetalles">Ver detalles</button></Link>
             </div>            
         </div>
     )
