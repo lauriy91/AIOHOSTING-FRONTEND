@@ -3,13 +3,13 @@ import { Carousel } from 'react-bootstrap';
 import React from 'react';
 import imagen1 from './images/1.jpg';
 import imagen2 from './images/2.jpg';
-import imagen3 from './images/3.jpg';
+import imagen3 from './images/3.jpeg';
 
 //comentario
 const carousel = () => {
   return (
     <div class="container">
-      <Carousel fade={true} interval={null}>
+      <Carousel fade={true} interval={2000}>
         <Carousel.Item>
           <img
 
