@@ -1,23 +1,22 @@
 import { BannerSinFiltro } from "../banner/BannerSinFiltro"
 import Map from '../map/Map'
 import Carrousel from '../carousel/carousel'
-import Descripcion from '../description/description'
-import {LabelIdioma} from '../labelIdioma/LabelIdioma'
+import Description from '../description/Description'
 import IconosDescripcion from '../iconos_descripcion/IconosDescripcion'
 
 const tableStyle = {
     width: "80%",
-    margin: "10% 5%"
+    margin: "5%",
+    marginLeft: "12%",
 }
 
 export const DescripcionAlojamiento = () => {
     return (
         <>
             <BannerSinFiltro/>
-            <LabelIdioma/>
             <Carrousel/>
             <table style={tableStyle}>
-                <td><Descripcion/></td>
+                <td><Description/></td>
                 <td><IconosDescripcion/></td>
             </table>
             

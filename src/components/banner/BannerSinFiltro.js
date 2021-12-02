@@ -8,12 +8,13 @@ export const BannerSinFiltro = () => {
         <>
         {/* Banner superior */}
         <nav className="navsup">
-            <img className="logo" src={AIOHostingLogo} alt="Logo" />
+            <img className="logoBanner" src={AIOHostingLogo} alt="Logo" />
             
         </nav>
 
         {/* Banner inferior */}
         <nav className="navinf">
+            
             <div className="contBtnInf">
             <HomeRegresar/>
             </div>            

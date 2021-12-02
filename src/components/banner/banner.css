@@ -2,32 +2,27 @@ Nav{
     width: 100vw;
     height: 7rem;
     background: linear-gradient(90deg,#3d4484,#b853db);
-    
 }
 
 .navsup{
     display: grid;
     grid-template-columns: 18rem 30rem 15rem;
     grid-template-rows: 1fr;
+
 }
 
 .navinf{
     display: grid;
     grid-template-columns: 7rem 30rem 15rem;
     grid-template-rows: 1fr;
+    margin-bottom: 5%;
 }
 
-.logo{
-    margin-left: 1.2rem;
+.logoBanner{
+    margin-top: 2rem;
     width: 10rem;
-    height: 12rem;
+    height: 10rem;
 }
-
-/* .labelIdioma{
-    position: absolute;
-    margin-top: 470px;
-    margin-left: 75% ;
-} */
 
 .contBtnInf{
     grid-column: 4/4;

@@ -23,10 +23,10 @@ export const Banner2 = () => {
 
             {/* Texto about */}
             <div className="about">
-                <h4 className="titleAbout">ABOUT US</h4>
-                <h5>lorem mansmm sfdfdfmkl dsdsfdfdfd fdffdf sfdfdfdffdf</h5>
-                <p>fdfsfsdasds sfdfdgfgfgffsd dsdsdsdsdsfdfdf </p>
-                <p>fsfsdsdserrrgddsfsdsfsf fdfsfsfsfs</p>
+                <h4 className="titleAbout">¿QUIENES SOMOS?</h4>
+                <h5>Bienes, comodidad y calidad para que puedad trabajar desde cualquier lugar</h5>
+                <p>Porque la presencialidad es necesaria, disfruta de un buen café con tus compañeros</p>
+                <p>Nomadas digitales</p>
             </div>
 
             {/* Links a los filtros de Coliving y Coworking */}

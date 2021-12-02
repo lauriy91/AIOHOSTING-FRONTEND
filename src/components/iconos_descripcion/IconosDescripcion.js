@@ -9,38 +9,38 @@ function IconosDescripcion() {
   return (
     <table className="Iconos">
       <tr>
-        <td>
+        <td className="iconD">
           <BsBicycle />
         </td>
         <td>Acceso a parqueaderos de bicicleta</td>
       </tr>
 
       <tr>
-        <td>
+        <td className="iconD">
           <BiCoffeeTogo />
         </td>
         <td>Acceso de cafetería</td>
       </tr>
 
       <tr>
-        <td>
+        <td  className="iconD">
           <FiWifi />
         </td>
-        <td>Wifi</td>
+        <td >Wifi</td>
       </tr>
 
       <tr>
-        <td>
+        <td className="iconD">
         <MdElectricCar/>
         </td>
         <td>Acceso a parqueaderos de bicicleta</td>
       </tr>
 
       <tr>
-        <td>
+        <td className="iconD">
         <MdTvOff/>
         </td>
-        <td>TV</td>
+        <td className="iconD">TV</td>
       </tr>
     </table>
   );

@@ -18,7 +18,7 @@ export class Chatbot extends Component{
         render(){
             return(
                 <div>
-                    <h1>AIO CHAT</h1>
+
                 </div>
             )
         }

@@ -9,7 +9,7 @@ export const Banner = () => {
         <>
         {/* Banner superior */}
         <nav className="navsup">
-            <img className="logo" src={AIOHostingLogo} alt="Logo" />
+            <img className="logoBanner" src={AIOHostingLogo} alt="Logo" />
             <Filtro/>
         </nav>
 

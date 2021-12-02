@@ -18,7 +18,7 @@ export const Filtro = () => {
 
             <input type="number" placeholder="$0" title="Ingresa tu presupuesto"></input>
 
-            <input type="String" className="fIngreso" placeholder="Fecha" title="Ingresa una fecha en formato DD-MM-AAAA"></input>
+            <input type="date" className="fIngreso" placeholder="Fecha" title="Ingresa una fecha en formato DD-MM-AAAA"></input>
 
             <select id="estadia" name="estadialist">
                 <option value="7">7 dias</option>

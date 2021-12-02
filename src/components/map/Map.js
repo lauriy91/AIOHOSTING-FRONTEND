@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import GoogleMaps from "simple-react-google-maps";
 import credentials from './credentials';
 
-
 const apiKey = `${credentials.apiKey}`;
 
 export default class Map extends Component {
