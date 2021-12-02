@@ -31,6 +31,9 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
