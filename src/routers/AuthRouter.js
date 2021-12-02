@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router';
-import {PanelAdmin} from '../components/vistas/PanelAdmin'
+import {Home} from '../components/vistas/Home'
 
 const AuthRouter = () => {
     return (
        <Routes>
-           <Route path="/" element={<PanelAdmin/>}>
+           <Route path="/" element={<Home/>}>
            </Route>
        </Routes>
     )
