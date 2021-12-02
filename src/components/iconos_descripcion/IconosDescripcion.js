@@ -4,6 +4,7 @@ import { FiWifi } from "react-icons/fi";
 import { MdElectricCar, MdTvOff } from "react-icons/md";
 import iconosdescripcion from "./iconosdescripcion.css";
 
+
 function IconosDescripcion() {
   return (
     <table className="Iconos">
