@@ -1,6 +1,93 @@
+<h1>NOW AIOHOSTING IN SPA WITH REACT!</h1>
+
+<p>¿Do you need to work and travel wherever you want? AIOHOSTING is the best site for check and reserve the best place for you.</p>
+
+
+<h1> THING THAT YOU CAN DO: </h1>
+
+
+<h2> Create a account, login and logout... </h2>
+
+[![login.png](https://i.postimg.cc/0QsKV8rm/login.png)](https://postimg.cc/Mc9GTJ7K)
+
+<h2> Now with highlights... </h2>
+
+[![destacados.png](https://i.postimg.cc/fRxLj0Rs/destacados.png)](https://postimg.cc/HrkdTnMv)
+
+<h2> But still, you have the control, and you can choose since our navigate banner... </h2>
+
+[![colivingresults.png](https://i.postimg.cc/Hx7snJKF/colivingresults.png)](https://postimg.cc/cg0N5Jdc)
+
+<h2> As you want, just filter de information and done... </h2>
+
+[![Whats-App-Image-2021-11-28-at-8-50-47-PM.jpg](https://i.postimg.cc/xT3L9KXS/Whats-App-Image-2021-11-28-at-8-50-47-PM.jpg)](https://postimg.cc/dLDhBZRW)
+
+
+<br><h1> NEW NEW NEW NEW </h1>
+
+<h2> Geolocation system in real time </h2>
+
+[![geolozalizaci-n.png](https://i.postimg.cc/kgkH9BQ2/geolozalizaci-n.png)](https://postimg.cc/hX1s143n)
+
+<h2> And a lovely ChatBot </h2>
+
+[![chatbot-js.png](https://i.postimg.cc/hv0YzmCW/chatbot-js.png)](https://postimg.cc/y3kj2D4v)
+
+<h3>APIS FOR THE CHATBOT</h3>
+
+<p>https://api.monkedev.com/fun/chat</p>
+
+<h2> And reserve it, so easy... </h2>
+
+[![formulario-reserva-aio.png](https://i.postimg.cc/bdXkctmt/formulario-reserva-aio.png)](https://postimg.cc/FkZ7075r)
+
+<h2> Despliegue en netlify </h2>
+
+https://61aab7c5cbaf51194c18d509--elastic-easley-63f1cd.netlify.app/
+
+<label>[...]Let see!</label>
+
+https://www.youtube.com/watch?v=0kWb-T3oQzc
+
+<h1>Enviroment Variables</h1>
+
+<li>MONGODB_URI</li>
+<li>Mongoose</li>
+<li>Express</li>
+<li>Multer</li>
+<li>Cloudinary</li>
+<li>React</li>
+<li>Morgan</li>
+<li>Cors</li>
+<li>Nodemon</li>
+
+<h1>Testing</h1>
+
+<label>Postman</label>
+
+<li>POST</li>
+<li>GET</li>
+<li>PUT</li>
+<li>DELETE</li>
+
+<h1>AUTHOR</h1>
+<h2>Laura Rodriguez King</h2>
+<h2>Andrea Villada</h2>
+<h2>Francisco Petrizzo</h2>
+<h2>Sean Daza</h2>
+<h2>Juan Diego Romero</h2>
+
+
+##ENVIROMENT
+
+<h1>Installation</h1>
+
+<li>git clone https://github.com/lauriy91/AIOHOSTING-FRONTEND.git</li>
+<li>cd AIOHOSTING</li>
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+create-react-AIOHOSTING.
 
 ## Available Scripts
 
