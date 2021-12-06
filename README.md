@@ -70,7 +70,7 @@ https://www.youtube.com/watch?v=0kWb-T3oQzc
 <li>PUT</li>
 <li>DELETE</li>
 
-<h1>AUTHOR</h1>
+<h1>AUTHORS</h1>
 <h2>Laura Rodriguez King</h2>
 <h2>Andrea Villada</h2>
 <h2>Francisco Petrizzo</h2>
